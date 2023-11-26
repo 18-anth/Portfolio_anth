@@ -11,3 +11,131 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  scrollbar-width: rhin;
+  scrollbar-color: hsla(0, 0%, 60.8%, 0.5) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9c27b0;
+  border-radius: 20px;
+  border: transparent;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  height: 100%; 
+  top: -30px;
+  margin: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #9c27b0;
+  list-style: none;
+}
+
+a, h2{
+  color: white;
+}
+
+.icon-redes-fooder {
+  font-size: 30px;
+  margin: 20px;
+  background: #fffffffb;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #9c27b0;
+}
+
+.redes-fooder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+hr {
+  margin-top: 20px;
+  border: none;
+  height: 2px;
+  background: #fffffff6;
+}
+
+.image {
+  height: 50vh; 
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  position: relative;
+  background-image: url("./img/image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.507);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img{
+  height: 100vh; 
+  width: 100vw;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  position: relative;
+  background-image: url("./img/image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.507);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.grid-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
