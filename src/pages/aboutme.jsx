@@ -2,7 +2,7 @@ import * as React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import { Button, CardActionArea, CardActions } from "@mui/material";
+import { CardActionArea } from "@mui/material";
 import "../index.css";
 
 function AboutMe() {
@@ -32,7 +32,7 @@ function AboutMe() {
                     <h3> </h3>
                     <p
                       style={{
-                        marginTop: "49vh", 
+                        marginTop: "49vh",
                         padding: "20px",
                       }}
                     >
